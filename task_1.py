@@ -10,8 +10,8 @@ f2 = open("F2.txt", "w")
 f1 = open("F1.txt", "r")
 
 for line in f1:
-    if line[0].isdigit(): # Если первый символ строки - цифра
-        f2.write(line) # Записываем строку в файл F2
+    if line[0].isdigit():
+        f2.write(line)
 
 f1.close()
 f2.close()
